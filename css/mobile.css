@@ -47,16 +47,26 @@ header nav .cabecera{
     vertical-align: middle;
     min-width: 30px;
 }
-.profesion{
-    justify-content: center;
-    align-items: center;
+/*------------------------------INICIO DE MAIN-----------------------------------*/
+main .profesion{
+  
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70%;
+    font-weight: 600;
 }
+main hr{
+margin:1%;
+}
+/*----------------------------
+
+CAMBIO DE DISPOSITIVO
+
+-----------------------------*/
 @media(min-width:375px){
     .cabecera .nombre{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 90%;
+        font-size: 110%;
         min-width: 60%;
         padding-left: 10px;
         color: mintcream;
@@ -70,6 +80,13 @@ header nav .cabecera{
         font-size: 85%;
         color:mintcream;
     }
+}
+
+main .profesion{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 85%;
+    font-weight: 600;
 }
 @media(min-width:425px){
     .cabecera .nombre{
