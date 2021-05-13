@@ -58,21 +58,48 @@ main .profesion{
 main hr{
 margin:1%;
 }
+main .titulo-descripcion-perfil{
+    position: relative;
+    top:10px;
+    left:7px;
+    text-align: left;
+    background-color: rgb(103, 138, 138);
+    width:max-content;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+main .descripcion-perfil{
+    text-align:justify;
+    background-color: rgb(194, 194, 193);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+main .descripcion-perfil p{
+    padding: 5px;
+    margin:0px;
+}
 /*----------------------------
 
 CAMBIO DE DISPOSITIVO
 
 -----------------------------*/
 @media(min-width:375px){
-    .cabecera .nombre{
+.cabecera .nombre{
+    min-width:250px;
+}
+
+.cabecera .nombre #Mauricio{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 110%;
-        min-width: 60%;
+        font-size: 80%;
+        min-width: 400px;
         padding-left: 10px;
         color: mintcream;
         
-    }
-    .cabecera .celular{
+    } 
+       .cabecera .celular{
         font-size: 85%;
         color:mintcream;
     }
@@ -80,19 +107,31 @@ CAMBIO DE DISPOSITIVO
         font-size: 85%;
         color:mintcream;
     }
-}
-
+    .cabecera .foto img{
+        width:55%;
+        border-radius: 50%;
+        margin-left: 30%;
+        vertical-align: middle;
+        min-width: 30px;
+    }
+/*------------------------------INICIO DE MAIN-----------------------------------*/
 main .profesion{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 85%;
     font-weight: 600;
 }
+}
+/*----------------------------
+
+CAMBIO DE DISPOSITIVO
+
+-----------------------------*/
 @media(min-width:425px){
-    .cabecera .nombre{
+    .cabecera .nombre #Mauricio{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 130%;
-        min-width: 60%;
+        min-width: 80%;
         padding-left: 10px;
         color: mintcream;
         
@@ -105,13 +144,43 @@ main .profesion{
         font-size: 95%;
         color:mintcream;
     }
+
+
+main .profesion{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 95%;
+    font-weight: 600;
 }
-@media(min-width:600px){
+}
+/*----------------------------
+
+CAMBIO DE DISPOSITIVO
+
+-----------------------------*/
+@media(min-width:768px){
+    .cabecera .nombre{
+        min-width: 500px;
+    }
     .cabecera .nombre #Mauricio{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 140%;
-        min-width: 60%;
+        font-size: 160%;
+        min-width: 70%;
         padding-left: 10px;
         color: mintcream;
     }
+    .cabecera .foto img{
+        width:35%;
+        border-radius: 50%;
+        margin-left: 60%;
+        vertical-align: middle;
+        min-width: 30px;
     }
+/*------------------------------INICIO DE MAIN-----------------------------------*/    
+main .profesion{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    }
+}
