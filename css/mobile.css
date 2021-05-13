@@ -58,6 +58,11 @@ main .profesion{
 main hr{
 margin:1%;
 }
+main .div2{
+    margin:auto;
+    width:50%;
+   
+}
 main .titulo-descripcion-perfil{
     position: relative;
     top:10px;
@@ -69,7 +74,7 @@ main .titulo-descripcion-perfil{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     font-size: 18px;
-}
+    }
 main .descripcion-perfil{
     text-align:justify;
     background-color: rgb(194, 194, 193);
@@ -109,7 +114,11 @@ CAMBIO DE DISPOSITIVO
         vertical-align: middle;
         min-width: 30px;
     }
-
+    main .div2{
+        margin:auto;
+        width:50%;
+       
+    }
 main .profesion{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -159,11 +168,56 @@ CAMBIO DE DISPOSITIVO
     }
     .cabecera .nombre #Mauricio{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 160%;
-        min-width: 70%;
+        font-size: 240%;
+        width: 140%;
         padding-left: 10px;
         color: mintcream;
     }
+    .cabecera .foto img{
+        width:55%;
+        border-radius: 50%;
+        margin-left: 40%;
+        vertical-align: middle;
+        min-width: 30px;
+    }
+/*------------------------------INICIO DE MAIN-----------------------------------*/  
+main .div2{
+    margin:auto;
+    width:50%;
+   
+}  
+main .profesion{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    }
+}
+/*----------------------------
+
+CAMBIO DE DISPOSITIVO
+
+-----------------------------*/
+@media(min-width:1024px){
+    .cabecera .nombre{
+        width: 80%;
+    }
+    .cabecera .nombre #Mauricio{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 300%;
+        width: 140%;
+        padding-left: 10px;
+        color: mintcream;
+    }
+    .cabecera .nombre .celular{
+        font-size: 115%;
+        color:mintcream;
+    }
+    .cabecera .nombre .correo{
+        font-size: 115%;
+        color:mintcream;
+    }  
+    
     .cabecera .foto img{
         width:35%;
         border-radius: 50%;
@@ -172,6 +226,11 @@ CAMBIO DE DISPOSITIVO
         min-width: 30px;
     }
 /*------------------------------INICIO DE MAIN-----------------------------------*/    
+main .div2{
+    margin:auto;
+    width:50%;
+   
+}
 main .profesion{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
