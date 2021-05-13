@@ -87,38 +87,33 @@ CAMBIO DE DISPOSITIVO
 
 -----------------------------*/
 @media(min-width:375px){
-.cabecera .nombre{
-    min-width:250px;
-}
-
-.cabecera .nombre #Mauricio{
+    .cabecera .nombre #Mauricio {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 80%;
-        min-width: 400px;
+        font-size: 130%;
+        width: 250px;
         padding-left: 10px;
         color: mintcream;
-        
-    } 
-       .cabecera .celular{
-        font-size: 85%;
+    }
+    .cabecera .celular{
+        font-size: 95%;
         color:mintcream;
     }
-    .cabecera  .correo{
-        font-size: 85%;
+    .cabecera .correo{
+        font-size: 95%;
         color:mintcream;
     }
-    .cabecera .foto img{
-        width:55%;
+    .cabecera .foto img {
+        width: 75%;
         border-radius: 50%;
-        margin-left: 30%;
+        margin-left: 10%;
         vertical-align: middle;
         min-width: 30px;
     }
-/*------------------------------INICIO DE MAIN-----------------------------------*/
+
 main .profesion{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 85%;
+    font-size: 95%;
     font-weight: 600;
 }
 }
