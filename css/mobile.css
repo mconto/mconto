@@ -47,6 +47,12 @@ header nav .cabecera{
     vertical-align: middle;
     min-width: 30px;
 }
+.profesion{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 @media(min-width:375px){
     .cabecera .nombre{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
