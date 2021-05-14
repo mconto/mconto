@@ -91,12 +91,7 @@ main .descripcion-perfil p{
     display:flex;
     flex-wrap: wrap;
 }
-/*.programador div{
-    border-width: 15px;
-    border-color: darkslategrey;
-    
-}
-*/
+
 .experiencia {
     width:100%;
     min-width:100%;
@@ -106,8 +101,17 @@ main .descripcion-perfil p{
     border-width: 2px;
     border-radius: 20px;
     margin-top: 10px;
+    
 }
-
+.titulo-exp{
+    margin:15px;
+    font-weight: 800;
+    
+}
+.titulo-proyecto{
+    margin:15px;
+    font-weight: 600;
+}
 .proyectos{
     width:100%;
     min-width:100%;
@@ -118,9 +122,11 @@ main .descripcion-perfil p{
     border-radius: 20px;
     margin-top: 10px;
 }
+
 .descripcion-exp{
     margin: 15px;
     text-align: justify;
+    font-style: oblique;
 
 }
 .descripcion-proyecto{
@@ -251,13 +257,18 @@ main .profesion{
     font-weight: 600;
     
 }
+.programador{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
 .experiencia{
     width: 50%;
     min-width:50%;
 }
  .proyectos{
-    width: 50%;
-    min-width:50%;
+    width: 45%;
+    min-width:45%;
 }
 }
 /*----------------------------
