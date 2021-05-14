@@ -370,3 +370,13 @@ main .profesion{
         margin-top:100px;
     }  
 }
+
+
+@media(min-width:1440px){
+    .programador img{
+        width: 20%;
+        margin-left: 250px;
+        margin-top:40px;
+    }  
+}
+
