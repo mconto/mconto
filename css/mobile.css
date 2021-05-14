@@ -90,6 +90,11 @@ main .descripcion-perfil p{
 .programador{
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.programador img{
+    width:40%;
+    margin-left:25%;
 }
 
 .experiencia {
@@ -137,6 +142,20 @@ main .descripcion-perfil p{
     margin-right: 1px;*/
 }
 
+.proyecto2{
+    width:97%;
+    min-width: 97px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-style:dotted;
+    border-width: 2px;
+    border-radius: 20px;
+    margin:0px auto;
+    padding:3px auto;
+    /*margin-left:2px;
+    margin-right: 1px;*/
+}
+
 
 .descripcion-exp{
     margin: 15px;
@@ -145,6 +164,10 @@ main .descripcion-perfil p{
 
 }
 .descripcion-proyecto{
+    margin: 15px;
+    text-align: justify;
+}
+.descripcion-proyecto2{
     margin: 15px;
     text-align: justify;
 }
@@ -272,10 +295,10 @@ main .profesion{
     font-weight: 600;
     
 }
-.programador{
-    display:flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+.programador img{
+    width:40%;
+    margin-left: 110px;
+    margin-top:150px;
 }
 .experiencia{
     width: 50%;
@@ -330,4 +353,20 @@ main .profesion{
     font-size: 100%;
     font-weight: 600;
     }
+    .proyectos{
+        width:45%;
+        min-width:45%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        border-style:dotted;
+        border-width: 1px;
+        border-radius: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }  
+    .programador img{
+        width:30%;
+        margin-left: 170px;
+        margin-top:100px;
+    }  
 }
