@@ -91,15 +91,37 @@ main .descripcion-perfil p{
     display:flex;
     flex-wrap: wrap;
 }
-.experiencia, .proyectos{
+/*.programador div{
+    border-width: 15px;
+    border-color: darkslategrey;
+    
+}
+*/
+.experiencia {
     width:100%;
     min-width:100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.proyectos{
+    width:100%;
+    min-width:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-style:dotted;
+    border-width: 2px;
+    border-radius: 20px;
+    margin-top: 10px;
 }
 .descripcion-exp{
     margin: 15px;
     text-align: justify;
+
 }
 .descripcion-proyecto{
     margin: 15px;
@@ -145,7 +167,11 @@ CAMBIO DE DISPOSITIVO
         font-size: 95%;
         font-weight: 600;
     }
-    .experiencia, .proyectos{
+    .experiencia{
+    width:100%;
+    min-width:100%;
+    }
+    .proyectos{
         width:100%;
         min-width:100%;
     }
@@ -180,7 +206,11 @@ main .profesion{
     font-size: 95%;
     font-weight: 600;
 }
-.experiencia, .proyectos{
+.experiencia{
+    width:100%;
+    min-width:100%;
+} 
+.proyectos{
     width:100%;
     min-width:100%;
 }
@@ -221,7 +251,11 @@ main .profesion{
     font-weight: 600;
     
 }
-.experiencia, .proyectos{
+.experiencia{
+    width: 50%;
+    min-width:50%;
+}
+ .proyectos{
     width: 50%;
     min-width:50%;
 }
