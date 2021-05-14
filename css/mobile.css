@@ -1,7 +1,8 @@
 *{
     padding: 0%;
+    box-sizing: content-box;
 }
-
+@media(min-width:320px){
 header .cabecera{
     background-color: darkslategray;
     border-radius: 15px;
@@ -86,6 +87,15 @@ main .descripcion-perfil p{
     padding: 5px;
     margin:0px;
 }
+.programador{
+    display:flex;
+    flex-wrap: wrap;
+}
+.experiencia, .proyectos{
+    width:100%;
+    min-width:100%;
+}
+}
 /*----------------------------
 
 CAMBIO DE DISPOSITIVO
@@ -125,6 +135,10 @@ main .profesion{
     font-size: 95%;
     font-weight: 600;
 }
+.experiencia, .proyectos{
+    width:100%;
+    min-width:100%;
+}
 }
 /*----------------------------
 
@@ -155,6 +169,10 @@ main .profesion{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 95%;
     font-weight: 600;
+}
+.experiencia, .proyectos{
+    width:100%;
+    min-width:100%;
 }
 }
 /*----------------------------
@@ -192,6 +210,11 @@ main .profesion{
     font-size: 100%;
     font-weight: 600;
     }
+}
+.experiencia, .proyectos{
+    width: 50%;
+    min-width:50%;
+}
 }
 /*----------------------------
 
