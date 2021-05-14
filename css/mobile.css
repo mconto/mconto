@@ -308,6 +308,13 @@ main .profesion{
     width: 45%;
     min-width:45%;
 }
+.proyecto1, .proyecto2{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:auto;
+}
 }
 /*----------------------------
 
