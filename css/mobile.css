@@ -118,10 +118,25 @@ main .descripcion-perfil p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     border-style:dotted;
-    border-width: 2px;
+    border-width: 1px;
     border-radius: 20px;
     margin-top: 10px;
+    text-align: center;
 }
+.proyecto1{
+    width:97%;
+    min-width: 97px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-style:dotted;
+    border-width: 2px;
+    border-radius: 20px;
+    margin:0px auto;
+    padding:3px auto;
+    /*margin-left:2px;
+    margin-right: 1px;*/
+}
+
 
 .descripcion-exp{
     margin: 15px;
