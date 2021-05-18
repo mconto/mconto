@@ -88,7 +88,7 @@ main .descripcion-perfil p{
     padding: 5px;
     margin:0px;
 }
-.programador, .desarrollador-it, .asesor-comercial{
+.programador, .desarrollador-it, .asesor-comercial, .lider-proyectos{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -98,7 +98,7 @@ main .descripcion-perfil p{
     margin-left:25%;
 }
 
-.experiencia, .experiencia1, .experiencia2 {
+.experiencia, .experiencia1, .experiencia2, .experiencia3 {
     width:100%;
     min-width:100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -109,16 +109,16 @@ main .descripcion-perfil p{
     margin-top: 10px;
     
 }
-.titulo-exp, .titulo-exp1, .titulo-exp2{
+.titulo-exp, .titulo-exp1, .titulo-exp2, .titulo-exp3{
     margin:15px;
     font-weight: 800;
     
 }
-.titulo-proyecto, .desempeno, .descripcion-exp2{
+.titulo-proyecto, .desempeno, .descripcion-exp2, .descripcion-exp3{
     margin:15px;
     font-weight: 600;
 }
-.proyectos, .especificacion, .especificacion1{
+.proyectos, .especificacion, .especificacion1, .especificacion2{
     width:100%;
     min-width:100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -130,7 +130,7 @@ main .descripcion-perfil p{
     text-align: center;
 }
 
-.proyecto1, .funciones, .funciones1{
+.proyecto1, .funciones, .funciones1, .funciones2{
     width:97%;
     min-width: 97px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -166,18 +166,18 @@ main .descripcion-perfil p{
     margin-right: 1px;*/
 }
 
-.divisoria1, .divisoria2{
+.divisoria1, .divisoria2, .divisoria3{
     border-style: double;
     border-width: 5px;
     
 }
-.descripcion-exp, .descripcion-exp1, .descripcion-exp2{
+.descripcion-exp, .descripcion-exp1, .descripcion-exp2, .descripcion-exp3{
     margin: 15px;
     text-align: justify;
     font-style: oblique;
 
 }
-.descripcion-proyecto, .detalles-motor, .detalles-asesor{
+.descripcion-proyecto, .detalles-motor, .detalles-asesor, .detalles-lider{
     margin: 15px;
     text-align: justify;
 }
@@ -226,11 +226,11 @@ CAMBIO DE DISPOSITIVO
         font-size: 95%;
         font-weight: 600;
     }
-    .experiencia, .experiencia1, .experiencia2{
+    .experiencia, .experiencia1, .experiencia2, .experiencia3{
     width:100%;
     min-width:100%;
     }
-    .proyectos, .especificacion, .especificacion1{
+    .proyectos, .especificacion, .especificacion1, .especificacion2{
         width:100%;
         min-width:100%;
     }
@@ -273,11 +273,11 @@ main .profesion{
     font-size: 95%;
     font-weight: 600;
 }
-.experiencia, .experiencia1, .experiencia2{
+.experiencia, .experiencia1, .experiencia2, .experiencia3{
     width:100%;
     min-width:100%;
 } 
-.proyectos, .especificacion, .especificacion1{
+.proyectos, .especificacion, .especificacion1, .especificacion2{
     width:100%;
     min-width:100%;
 }
@@ -336,15 +336,15 @@ main .profesion{
     margin-left: 110px;
     margin-top:150px;
 }
-.experiencia, .experiencia1, .experiencia2{
+.experiencia, .experiencia1, .experiencia2, .experiencia3{
     width: 50%;
     min-width:50%;
 }
- .proyectos, .especificacion, .especificacion1{
+ .proyectos, .especificacion, .especificacion1, .especificacion2{
     width: 45%;
     min-width:45%;
 }
-.proyecto1, .proyecto2, .funciones, .funciones1{
+.proyecto1, .proyecto2, .funciones, .funciones1, .funciones2{
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -418,7 +418,7 @@ main .profesion{
     font-size: 100%;
     font-weight: 600;
     }
-    .proyectos, .especificacion, .especificacion1{
+    .proyectos, .especificacion, .especificacion1, .especificacion2{
         width:45%;
         min-width:45%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
