@@ -6,6 +6,7 @@
 header .cabecera{
     background-color: darkslategray;
     border-radius: 15px;
+    
 }
 header nav{
     display:flex;
@@ -78,7 +79,7 @@ main .titulo-descripcion-perfil{
     }
 main .descripcion-perfil{
     text-align:justify;
-    background-color: rgb(194, 194, 193);
+    background-color: rgb(214,214,214);
     border-radius: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
@@ -251,7 +252,15 @@ CAMBIO DE DISPOSITIVO
         font-size: 95%;
         color:mintcream;
     }
-
+    main .descripcion-perfil{
+        margin: 0px auto;
+        width:75%;
+        text-align:justify;
+        background-color: rgb(214,214,214);
+        border-radius: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+    }
 
 main .profesion{
     text-align: center;
@@ -291,12 +300,25 @@ CAMBIO DE DISPOSITIVO
         vertical-align: middle;
         min-width: 30px;
     }
+
 /*------------------------------INICIO DE MAIN-----------------------------------*/  
 main .div2{
     margin:auto;
     width:50%;
    
 }  
+main .titulo-descripcion-perfil{
+    position: relative;
+    top:10px;
+    left:65px;
+    text-align: left;
+    background-color: rgb(103, 138, 138);
+    width:max-content;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    }
 main .profesion{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -363,6 +385,28 @@ main .div2{
     width:50%;
    
 }
+
+main .titulo-descripcion-perfil{
+    position: relative;
+    top:10px;
+    left:180px;
+    text-align: left;
+    background-color: rgb(103, 138, 138);
+    width:max-content;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    }
+    main .descripcion-perfil{
+        margin: 0px auto;
+        width:55%;
+        text-align:justify;
+        background-color: rgb(214,214,214);
+        border-radius: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+    }
 main .profesion{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
