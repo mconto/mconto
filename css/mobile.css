@@ -130,7 +130,7 @@ main .descripcion-perfil p{
     text-align: center;
 }
 
-.proyecto1, .funciones, .funciones1, .funciones2, .funciones3{
+.proyecto1, .funciones, .funciones1, .funciones2, .funciones3, .habilidades, .educacion{
     width:97%;
     min-width: 97px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -166,7 +166,7 @@ main .descripcion-perfil p{
     margin-right: 1px;*/
 }
 
-.divisoria1, .divisoria2, .divisoria3, .divisoria4{
+.divisoria1, .divisoria2, .divisoria3, .divisoria4, .divisoria5{
     border-style: double;
     border-width: 5px;
     
@@ -184,6 +184,24 @@ main .descripcion-perfil p{
 .descripcion-proyecto2{
     margin: 15px;
     text-align: justify;
+}
+.habilidades-educacion {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.habilidades, .educacion{
+    list-style: square;
+    width:80%;
+}
+ul, .habilidades1, .habilidades2{
+margin-left: 20px;
+}
+.titulo-habilidades, .titulo-educacion{
+    margin-left: 20px;
+    font-weight: 800;
 }
 
 }
@@ -350,6 +368,14 @@ main .profesion{
     margin-top: 20px;
     margin-bottom: 20px;
     width:auto;
+}
+.habilidades, .educacion{
+    list-style: square;
+    width:48%;
+    margin-left: 15px;
+}
+.habilidades-educacion {
+    flex-wrap: nowrap;
 }
 }
 /*----------------------------
