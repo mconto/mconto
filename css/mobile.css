@@ -231,7 +231,14 @@ footer p{
     color: rgb(0,63,90);
     font-weight: 600;
 }
-
+.opiniones p{
+    text-align: center;
+    color: rgb(235,217,200);
+    cursor: pointer;
+}
+.opiniones{
+    text-decoration: none;
+}
 }
 /*----------------------------
 
