@@ -184,7 +184,7 @@ main .descripcion-perfil p{
     margin: 15px;
     text-align: justify;
     font-style: oblique;
-    color: rgb(0,122,122);
+    color: rgb(235,217,200);
 
 }
 .descripcion-proyecto, .descripcion-proyecto2, .detalles-motor, .detalles-asesor, .detalles-lider, .detalles-css{
