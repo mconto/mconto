@@ -76,8 +76,9 @@ main .descripcion-perfil{
     text-align:justify;
     background-color: rgb(235,217,200);
     border-radius: 10px;
-    border-width: 15px;
-    border-color: rgb(222,102,0);
+    border-style: dashed;
+    border-width: 5px;
+    border-color: rgb(0,63,90);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 }
@@ -173,7 +174,7 @@ main .descripcion-perfil p{
     margin-right: 1px;*/
 }
 
-.divisoria1, .divisoria2, .divisoria3, .divisoria4, .divisoria5{
+.divisoria0, .divisoria1, .divisoria2, .divisoria3, .divisoria4, .divisoria5{
     border-style: double;
     border-width: 5px;
     color:rgb(222,102,0)
