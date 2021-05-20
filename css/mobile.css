@@ -2,9 +2,12 @@
     padding: 0%;
     box-sizing: content-box;
 }
+html{
+    background-color: rgb(0,122,122);
+}
 @media(min-width:320px){
 header .cabecera{
-    background-color: darkslategray;
+    background-color: rgb(0,63,90);
     border-radius: 15px;
     
 }
@@ -24,20 +27,20 @@ header nav .cabecera{
     font-size: 80%;
     min-width: 200px;
     padding-left: 10px;
-    color: mintcream;
+    color: rgb(235,217,200);
     
 }
 .cabecera .nombre .celular{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 60%;
-    color:mintcream;
+    color:rgb(222,102,0);
     margin-bottom: 0px;
     padding-left: 10px;
 }
 .cabecera .nombre .correo{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 60%;
-    color:mintcream;
+    color:rgb(222,102,0);
     margin-top: 0px;
     padding-left: 10px;
 }
@@ -56,6 +59,7 @@ main .profesion{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 70%;
     font-weight: 600;
+    color:rgb(235,217,200);
 }
 main hr{
     margin:1%;
@@ -65,28 +69,22 @@ main .div2{
     width:50%;
    
 }
-main .titulo-descripcion-perfil{
-    position: relative;
-    top:10px;
-    left:7px;
-    text-align: left;
-    background-color: rgb(103, 138, 138);
-    width:max-content;
-    border-radius: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    }
+
+
 main .descripcion-perfil{
+  
     text-align:justify;
-    background-color: rgb(214,214,214);
+    background-color: rgb(235,217,200);
     border-radius: 10px;
+    border-width: 15px;
+    border-color: rgb(222,102,0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 }
 main .descripcion-perfil p{
     padding: 5px;
     margin:0px;
+    color: rgb(0,63,90);
 }
 .programador, .desarrollador-it, .asesor-comercial, .lider-proyectos, .css{
     display:flex;
@@ -107,16 +105,19 @@ main .descripcion-perfil p{
     border-width: 2px;
     border-radius: 20px;*/
     margin-top: 10px;
+    border-color: rgb(222,102,0);
     
 }
 .titulo-exp, .titulo-exp1, .titulo-exp2, .titulo-exp3, .titulo-exp4{
     margin:15px;
     font-weight: 800;
+    color:rgb(235,217,200);
     
 }
 .titulo-proyecto, .desempeno, .desempeno1, .desempeno2, .desempeno3{
     margin:15px;
     font-weight: 600;
+    color:rgb(0,63,90);
 }
 .proyectos, .especificacion, .especificacion1, .especificacion2, .especificacion3{
     width:100%;
@@ -128,6 +129,8 @@ main .descripcion-perfil p{
     border-radius: 20px;
     margin-top: 10px;
     text-align: center;
+    background-color: rgb(0,63,90);
+    border-color: rgb(222,102,0);
 }
 
 .proyecto1, .funciones, .funciones1, .funciones2, .funciones3, .habilidades, .educacion{
@@ -143,6 +146,8 @@ main .descripcion-perfil p{
     margin-top: 5px;
     margin-bottom: 5px;
     width:auto;
+    background-color: rgb(235,217,200);
+    border-color: rgb(222,102,0);
     /*padding:3px auto;
     margin-left:2px;
     margin-right: 1px;*/
@@ -161,6 +166,8 @@ main .descripcion-perfil p{
     margin-top: 5px;
     margin-bottom: 5px;
     width:auto;
+    background-color: rgb(235,217,200);
+    border-color:rgb(222,102,0);
     /*padding:3px auto;
     margin-left:2px;
     margin-right: 1px;*/
@@ -169,22 +176,22 @@ main .descripcion-perfil p{
 .divisoria1, .divisoria2, .divisoria3, .divisoria4, .divisoria5{
     border-style: double;
     border-width: 5px;
+    color:rgb(222,102,0)
     
 }
 .descripcion-exp, .descripcion-exp1, .descripcion-exp2, .descripcion-exp3, .descripcion-exp4{
     margin: 15px;
     text-align: justify;
     font-style: oblique;
+    color: rgb(0,122,122);
 
 }
-.descripcion-proyecto, .detalles-motor, .detalles-asesor, .detalles-lider, .detalles-css{
+.descripcion-proyecto, .descripcion-proyecto2, .detalles-motor, .detalles-asesor, .detalles-lider, .detalles-css{
     margin: 15px;
     text-align: justify;
+    color: rgb(0,122,122);
 }
-.descripcion-proyecto2{
-    margin: 15px;
-    text-align: justify;
-}
+
 .habilidades-educacion {
     display:flex;
     flex-wrap: wrap;
@@ -195,13 +202,16 @@ main .descripcion-perfil p{
 .habilidades, .educacion{
     list-style: square;
     width:80%;
+    background-color: rgb(235,217,200);
 }
-ul, .habilidades1, .habilidades2{
-margin-left: 20px;
+ul, .habilidades1, .habilidades2, .educacion1{
+    margin-left: 20px;
+    color: rgb(0,122,122);
 }
 .titulo-habilidades, .titulo-educacion{
     margin-left: 20px;
     font-weight: 800;
+    color:rgb(0,63,90);
 }
 
 }
@@ -216,15 +226,15 @@ CAMBIO DE DISPOSITIVO
         font-size: 130%;
         width: 250px;
         padding-left: 10px;
-        color: mintcream;
+        color: rgb(235,217,200);
     }
     .cabecera .celular{
         font-size: 95%;
-        color:mintcream;
+        color:rgb(222,102,0);
     }
     .cabecera .correo{
         font-size: 95%;
-        color:mintcream;
+        color:rgb(222,102,0);
     }
     .cabecera .foto img {
         width: 75%;
@@ -264,25 +274,33 @@ CAMBIO DE DISPOSITIVO
         font-size: 130%;
         min-width: 80%;
         padding-left: 10px;
-        color: mintcream;
+        color: rgb(235,217,200);
         
     }
     .cabecera .celular{
         font-size: 95%;
-        color:mintcream;
+        color:rgb(222,102,0);
     }
     .cabecera .correo{
         font-size: 95%;
-        color:mintcream;
+        color:rgb(222,102,0);
     }
     main .descripcion-perfil{
-        margin: 0px auto;
-        width:75%;
+        
+        margin:0px auto;
         text-align:justify;
-        background-color: rgb(214,214,214);
+        background-color: rgb(235,217,200);
         border-radius: 10px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 14px;
+        width:75%;
+    }
+
+  
+    main .descripcion-perfil p{
+        padding: 5px;
+        margin:0px;
+        color: rgb(0,63,90);
     }
 
 main .profesion{
@@ -314,7 +332,7 @@ CAMBIO DE DISPOSITIVO
         font-size: 240%;
         width: 140%;
         padding-left: 10px;
-        color: mintcream;
+        color: rgb(235,217,200);
     }
     .cabecera .foto img{
         width:55%;
@@ -330,18 +348,7 @@ main .div2{
     width:50%;
    
 }  
-main .titulo-descripcion-perfil{
-    position: relative;
-    top:10px;
-    left:65px;
-    text-align: left;
-    background-color: rgb(103, 138, 138);
-    width:max-content;
-    border-radius: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    }
+
 main .profesion{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -392,15 +399,15 @@ CAMBIO DE DISPOSITIVO
         font-size: 300%;
         width: 140%;
         padding-left: 10px;
-        color: mintcream;
+        color: rgb(235,217,200);
     }
     .cabecera .nombre .celular{
         font-size: 115%;
-        color:mintcream;
+        color:rgb(222,102,0);
     }
     .cabecera .nombre .correo{
         font-size: 115%;
-        color:mintcream;
+        color:rgb(222,102,0);
     }  
     
     .cabecera .foto img{
@@ -417,23 +424,12 @@ main .div2{
    
 }
 
-main .titulo-descripcion-perfil{
-    position: relative;
-    top:10px;
-    left:180px;
-    text-align: left;
-    background-color: rgb(103, 138, 138);
-    width:max-content;
-    border-radius: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    }
+
     main .descripcion-perfil{
         margin: 0px auto;
         width:55%;
         text-align:justify;
-        background-color: rgb(214,214,214);
+        background-color: rgb(235,217,200);
         border-radius: 10px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 14px;
